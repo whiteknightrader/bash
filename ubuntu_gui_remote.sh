@@ -14,6 +14,7 @@ ufw allow 5901
 
 sudo apt-get install -y xfce4 xfce4-goodies tightvncserver firefox expect git
 su - wolf
+su - wolf
 vncserver
 
 vncserver -kill :1
