@@ -41,6 +41,4 @@ EOF
 sudo systemctl daemon-reload
 sudo systemctl enable --now vncserver@1.service
 
-git clone https://github.com/whiteknightrader/bash.git && chmod +x ./bash/*.sh
-
 sudo reboot
