@@ -13,12 +13,11 @@ ufw allow ssh
 ufw allow 5901
 
 sudo apt-get install -y xfce4 xfce4-goodies tightvncserver firefox expect git
-su - wolf
-su - wolf
-vncserver
+sudo su - wolf
+sudo vncserver
 
-vncserver -kill :1
-cp ~/.vnc/xstartup ~/.vnc/xstartup.bak
+sudo vncserver -kill :1
+sudo cp ~/.vnc/xstartup ~/.vnc/xstartup.bak
 
 sudo echo "startxfce4 &" >> ~/.vnc/xstartup
 
